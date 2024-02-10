@@ -11,7 +11,7 @@ body {
 }
 
 .signup-container {
-  background-color: #ffffff9f;
+  background-color: #ffffff79;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -37,24 +37,58 @@ body {
   margin-bottom: 8px;
   color: #000000;
   font-weight: 600;
-  font-family: fantasy;
+  font-family:'Rubik',sans-serif;
+}
+.signup-form input {
+
+  color: #000000;
+  font-family: 'Rubik',sans-serif
 }
 
 .signup-form input {
+  
   width: 100%;
-  padding: 8px;
+  padding: 12px;
   margin-bottom: 12px;
-  border: 1px solid #cccccc;
-  border-radius: 15px;
+  border: 1px solid #cccccca7;
+  border-radius: 25px;
   box-sizing: border-box;
+  transition: 0.3s;
+}
+.signup-form input:hover{
+  border-color: #000000;
 }
 .signup-form button {
   border-radius: 20px;
-  width: 150px;
+  width: 170px;
   height: 40px;
-  margin-left: 95px;
+  margin-left: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   background-color: #000000;
   color: #f2f2f2;
   font-family: 'Rubik' , sans-serif;
-  
+  border: none;
+  transition: 0.3s;
+}
+.signup-form button:hover{
+  width: 180px;
+  height: 45px;
+  margin-left: 85px;
+  margin-top: 25px;
+  background-color: #ffffff;
+  color: #000000;
+  align-content: center;
+  font-weight: bold;
+}
+.signup-container h3{
+  color: #00000099;
+  font-size: small;
+  text-align: center;
+  font-family: 'Rubik',sans-serif;
+}
+.signup-container h3 span{
+  text-decoration: underline;
+  color: #000000;
+  font-size: medium;
 }
